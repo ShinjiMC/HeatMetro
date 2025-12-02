@@ -7,7 +7,7 @@ import { HashRouter, Route, Switch } from "react-router-dom";
 import VisualizationPage from "./VisualizationPage";
 
 const Root = () => (
-  <HashRouter basename={process.env.PUBLIC_URL}>
+  <HashRouter>
     <Switch>
       <Route path="/" component={VisualizationPage} />
     </Switch>
