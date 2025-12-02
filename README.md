@@ -53,7 +53,7 @@ This viewer is designed to be deployed automatically via **GitHub Actions** in a
 In the repository where your data resides (the one containing your `repositories.db`), create a file at `.github/workflows/heatmetro.yml` and paste the following content:
 
 ```yaml
-name: Generate & Deploy Heatmap
+name: Generate & Deploy HeatMetro
 
 on:
   push:
@@ -187,7 +187,7 @@ Este visor se despliega automáticamente mediante **GitHub Actions** en cualquie
 En el repositorio donde están tus datos (el que tiene el `repositories.db`), crea un archivo en `.github/workflows/heatmetro.yml` y pega el siguiente contenido:
 
 ```yaml
-name: Generate & Deploy Heatmap
+name: Generate & Deploy HeatMetro
 
 on:
   push:
