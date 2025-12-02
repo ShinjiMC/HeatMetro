@@ -1,0 +1,13 @@
+{
+  "name": "heatmetro-static-generator",
+  "version": "1.0.0",
+  "description": "Convierte SQLite a API Estática JSON",
+  "main": "json.js",
+  "scripts": {
+    "convert": "node json.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.0.0",
+    "fs-extra": "^11.0.0"
+  }
+}
